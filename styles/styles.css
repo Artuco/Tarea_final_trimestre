@@ -1,0 +1,85 @@
+#titulo{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url("../images/ajr_grupo.png");
+    text-align: center; 
+    font-size: 80px; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 10px;
+}
+
+body{
+    margin: 0;
+    background-image: linear-gradient(0deg, rgb(158, 167, 218) 0% 12.00%, rgb(255, 255, 255) 88.00% 100%);
+}
+
+.subtitulo{
+    text-align: center;
+}
+
+#info{
+    float: left;
+    width: 33%;
+}
+
+#historia{
+    float: left;
+    width: 33%;
+}
+
+#discografia{
+    float: left;
+    width: 33%;
+}
+
+.centrado{
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.discos{
+    float: left;
+    width: 33%;
+}
+
+.videos{
+    float: left;
+    width: 33%;
+}
+
+footer{
+    clear: both;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+@media only screen and (max-width: 768px){
+    #info{
+        width: 100%;
+        display: block;
+    }
+
+    #historia{
+        width: 100%;
+        display: block;
+    }
+
+    #discografia{
+        width: 100%;
+        display: block;
+    }
+
+.discos{
+    width: 100%;
+    display: block;
+}
+
+.videos{
+    width: 100%;
+    display: block;
+}
+}
